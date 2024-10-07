@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>PMC-Private Military Contractor- The Game </title>
+	<meta charset="UTF-8">
+	<meta name="description" content="PMC - The Game">
+	<meta name="keywords" content="military sim, game, base build, Tps, 3rd person shooter, inventory, drugs, bunker, post-appocoliptic">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->   
+	<link href="public/img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="public/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="public/css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="public/css/owl.carousel.css"/>
+	<link rel="stylesheet" href="public/css/style.css"/>
+	<link rel="stylesheet" href="public/css/animate.css"/>
+	<link rel="stylesheet" href="public/css/custom.css"/>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary navbar-custom">
+		<!-- Container wrapper -->
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="/">
+			<img
+			  src="public/img/pmc_logo.webp"
+			  class="me-2"
+			  height="100"
+			  width="100"
+			  alt=""
+			  loading="lazy"
+			/>
+			<small>Private Military Contractor - The Game</small>
+		  </a>
+		  <!-- Toggle button -->
+		  <button
+			data-mdb-collapse-init
+			class="navbar-toggler"
+			type="button"
+			data-mdb-target="#navbarCenteredExample"
+			aria-controls="navbarCenteredExample"
+			aria-expanded="false"
+			aria-label="Toggle navigation"
+		  >
+			<i class="fas fa-bars"></i>
+		  </button>
+	  
+		  <!-- Collapsible wrapper -->
+		  <div
+			class="collapse navbar-collapse justify-content-center"
+			id="navbarCenteredExample"
+		  >
+			<!-- Left links -->
+			<ul class="navbar-nav mb-2 mb-lg-0">
+			 
+			  <li class="nav-item">
+				<a class="nav-link disabled">
+				  Community Forums
+				  </a>
+			  </li>
+			  <li>
+				<a class="nav-link disabled" >
+					To Shop
+				</a>
+			</li>
+			</ul>
+			<!-- Left links -->
+		  </div>
+	  
+		  <div>
+			<a
+			  data-mdb-ripple-init
+			  class="btn btn-link btn-floating btn-lg text-body m-1"
+			  href="https://x.com/P_M_C_The_Game"
+			  role="button"
+			  data-mdb-ripple-color="dark"
+			  ><i class="fab fa-twitter"></i
+			></a>
+			<a
+			  data-mdb-ripple-init
+			  class="btn btn-link btn-floating btn-lg text-body m-1"
+			  
+			  role="button"
+			  data-mdb-ripple-color="dark"
+			  ><i class="fab fa-steam"></i
+			></a>
+		  </div>
+		  <!-- Collapsible wrapper -->
+		</div>
+		<!-- Container wrapper -->
+	  </nav>
+	  
+
+
+
+	<!-- Hero section -->
+	<!-- <section class="hero-section">
+		<div class="hero-slider owl-carousel">
+			<div class="hs-item set-bg" data-setbg="img/slider-1.jpg">
+				<div class="hs-text">
+					<div class="container">
+						<h2>Building <span>50+ Maps</span> for <span>New Earth</span></h2>
+						<p class="custom-p">Master the Terrain in New Earth Explore 50+ strategically <br> 
+							crafted maps, designed in Gaea, where every decision <br>
+							counts. Conquer diverse landscapes and outmaneuver <br>
+							your enemies in the ultimate test of tactical skill.</p>
+						<a href="#" class="site-btn">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="hs-item set-bg" data-setbg="img/slider-2.jpg">
+				<div class="hs-text">
+					<div class="container">
+						<h2>The Best <span>Games</span> Out There</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada <br> lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. <br>Suspendisse cursus faucibus finibus.</p>
+						<a href="#" class="site-btn">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Hero section end -->
+
+
+	<!-- Latest news section -->
+	<div class="latest-news-section">
+		<div class="ln-title">Latest News</div>
+		<div class="news-ticker">
+			<div class="news-ticker-contant">
+				<div class="nt-item"><span class="new">New Earth Awaits</span>150+ maps with unique terrains and resources. Claim land, raid rivals, and build your empire. </div>
+				<div class="nt-item"><span class="strategy">Build Your City</span>Create a powerful city, manage your population, and defend it with military might. </div>
+				<div class="nt-item"><span class="racing">Lead Your Private Army</span>Command troops, build military bases, and engage in tactical warfare across the sectors. </div>
+				<div class="nt-item"><span class="custom-adventure">Harvest Resources, Control the Economy</span>Mine rare resources, manufacture weapons, and trade or produce illicit goods to dominate. </div>
+			</div>
+		</div>
+	</div>
+	<!-- Latest news section end -->
+
+
+	<!-- Feature section -->
+	<section class="feature-section spad custom-bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 p-0">
+					<div class="feature-item set-bg" data-setbg="public/img/register_company.png">
+						<div class="fi-content text-white">
+							<h5 class="custom-h5">Register your Corporation</h5>
+							<p> Establish your corporation and rise to the top of the PMC ranks.</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 p-0">
+					<div class="feature-item set-bg" data-setbg="public/img/land_claim.png">
+					
+						<div class="fi-content text-white">
+							<h5 class="custom-h5">Claim Sectors</h5>
+							<p>Claim and conquer key sectors to build your legacy of power. </p>
+					
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 p-0">
+					<div class="feature-item set-bg" data-setbg="public/img/base_build.png">
+						
+						<div class="fi-content text-white">
+							<h5 class="custom-h5">Build Bases</h5>
+							<p>Build formidable bases to secure your empire’s future and power. </p>
+						
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 p-0">
+					<div class="feature-item set-bg" data-setbg="public/img/corps_fighting.png">
+			
+						<div class="fi-content text-white">
+							<h5 class="custom-h5">Fight Other Factions</h5>
+							<p>Confront rival factions and prove your supremacy on the frontlines. </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Feature section end -->
+
+
+	<!-- details game section  -->
+	<section class="recent-game-section spad set-bg" data-setbg="public/img/recent-game-bg.png">
+		<div class="container">
+		  <div class="section-title text-center">
+			<img src="public/img/clear_logo.png" alt="New Earth Logo" class="img-fluid" style="max-width: 150px;">
+		  </div>
+	  
+		  <div class="row">
+			<!-- About New Earth -->
+			<div class="col-lg-4 col-md-6">
+			  <div class="recent-game-item">
+				<div class="rgi-thumb set-bg" data-setbg="public/img/recent-game/newearthbunker.png"></div>
+				<div class="rgi-content">
+				  <h5>About New Earth</h5>
+				  <p class="short-text">In the year 2740 A.D., humanity faced its darkest hour as World War III....</p>
+				  <a href="#" class="view-more" data-content="about-new-earth" data-toggle="modal" data-target="#gameModal">Read More</a>
+				</div>
+			  </div>
+			</div>
+	  
+			<!-- About World Map -->
+			<div class="col-lg-4 col-md-6">
+			  <div class="recent-game-item">
+				<div class="rgi-thumb set-bg" data-setbg="public/img/recent-game/aboutmap.png"></div>
+				<div class="rgi-content">
+				  <h5>About World Map</h5>
+				  <p class="short-text">In-game Hexagon World Maps with over 150+ regions...</p>
+				  <a href="#" class="view-more" data-content="about-world-map" data-toggle="modal" data-target="#gameModal">Read More</a>
+				</div>
+			  </div>
+			</div>
+	  
+			<!-- About Cities -->
+			<div class="col-lg-4 col-md-6">
+			  <div class="recent-game-item">
+				<div class="rgi-thumb set-bg" data-setbg="public/img/recent-game/citybuilding.png"></div>
+				<div class="rgi-content">
+				  <h5>About Cities</h5>
+				  <p class="short-text">Private military contractors can build and upgrade cities...</p>
+				  <a href="#" class="view-more" data-content="about-cities" data-toggle="modal" data-target="#gameModal">Read More</a>
+				</div>
+			  </div>
+			</div>
+	  
+			<!-- About Resources -->
+			<div class="col-lg-4 col-md-6 mt-3">
+			  <div class="recent-game-item">
+				<div class="rgi-thumb set-bg" data-setbg="public/img/recent-game/resources.png"></div>
+				<div class="rgi-content">
+				  <h5>About Resources</h5>
+				  <p class="short-text">Resource mining, extraction, and management systems...</p>
+				  <a href="#" class="view-more" data-content="about-resources" data-toggle="modal" data-target="#gameModal">Read More</a>
+				</div>
+			  </div>
+			</div>
+	  
+			<!-- About Setting up a PMC -->
+			<div class="col-lg-4 col-md-6 mt-3">
+			  <div class="recent-game-item">
+				<div class="rgi-thumb set-bg" data-setbg="public/img/recent-game/setinguppmc.png"></div>
+				<div class="rgi-content">
+				  <h5>About Setting up a PMC</h5>
+				  <p class="short-text">How to set up and manage your Private Military Corporation...</p>
+				  <a href="#" class="view-more" data-content="about-pmc" data-toggle="modal" data-target="#gameModal">Read More</a>
+				</div>
+			  </div>
+			</div>
+	  
+			<!-- About Multiplayer -->
+			<div class="col-lg-4 col-md-6 mt-3">
+			  <div class="recent-game-item">
+				<div class="rgi-thumb set-bg" data-setbg="public/img/recent-game/multiplayer.png"></div>
+				<div class="rgi-content">
+				  <h5>About Multiplayer</h5>
+				  <p class="short-text">Multiplayer mode with team-based strategies or hire NPCs to ...</p>
+				  <a href="#" class="view-more" data-content="about-multiplayer" data-toggle="modal" data-target="#gameModal">Read More</a>
+				</div>
+			  </div>
+			</div>
+	  
+		  </div>
+		</div>
+	  </section>
+	  
+	  <!-- Modal -->
+	  <div class="modal fade" id="gameModal" tabindex="-1" aria-labelledby="gameModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="gameModalLabel">Game Details</h5>
+			  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			  </button>
+			</div>
+			<div class="modal-body">
+			  <div id="modalContent">
+				<!-- Dynamic content will be injected here -->
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  
+	<!-- details game section end -->
+
+
+	<!-- Review section -->
+<section class="review-section spad set-bg" data-setbg="public/img/background_deals2.png">
+    <div class="container">
+        <div class="section-title">
+            <div class="cata new">Hot</div>
+            <h1 class="custom-color">Exclusive deals</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="review-item">
+                    <div class="review-cover set-bg" data-setbg="public/img/land_deals.png">
+                        <!-- <div class="score yellow">9.3</div> -->
+                    </div>
+                    <div class="review-text">
+                        <h5 class="yellow">Lands</h5>
+                        <li class="custom-color">Exclusive Territories</li>
+                        <li class="custom-color">Resource-Rich Areas</li>
+                        <li class="custom-color">Premium Bases</li>
+                        <li class="custom-color">Special Facilities</li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="review-item">
+                    <div class="review-cover set-bg" data-setbg="public/img/vehicle_deals.png">
+                        <!-- <div class="score purple">9.5</div> -->
+                    </div>
+                    <div class="review-text">
+                        <h5 class="blue">Vehicles</h5>
+                        <li class="custom-color">Customizable Vehicles</li>
+                        <li class="custom-color">High-Performance Vehicles</li>
+                        <li class="custom-color">Limited Edition Vehicles</li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="review-item">
+                    <div class="review-cover set-bg" data-setbg="public/img/Weapons.png">
+                        <!-- <div class="score green">9.1</div> -->
+                    </div>
+                    <div class="review-text">
+                        <h5 class="green">Weapons</h5>
+                        <li class="custom-color">Unique Weapon Skins</li>
+                        <li class="custom-color">Legendary Weapons</li>
+                        <li class="custom-color">Weapon Mods & Enhancements</li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="review-item">
+                    <div class="review-cover set-bg" data-setbg="public/img/Utilities.png">
+                        <!-- <div class="score pink">9.7</div> -->
+                    </div>
+                    <div class="review-text">
+                        <h5 class="pink">Utilities</h5>
+                        <li class="custom-color">Exclusive Skins & Outfits</li>
+                        <li class="custom-color">Resource Packs</li>
+                        <li class="custom-color">Special Access</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+        <!-- Premium Maps and Pay-to-Win Notice Section -->
+        <div class="premium-maps-section">
+            <h3 class="premium-title-custom-color">Premium Maps: Explore, Raid, and Conquer</h2>
+            <p class="premium-text-custom-color">
+                Our game features exclusive premium maps that can be purchased for a more enhanced experience. 
+                Even if you don’t own these maps, you can still visit and raid them, offering new challenges and 
+                opportunities for all players. Premium maps give an advantage in resources but not in gameplay dominance.
+            </p>
+            <p class="pay-to-win-text-custom-color">
+                <strong>Note:</strong> This game is <span class="not-pay-to-win">NOT pay-to-win</span>. All players can earn items by playing, and 
+                owning premium content is optional. Skill, strategy, and teamwork are the keys to success!
+				<br>
+				<strong>Note:</strong> The shop <span class="not-pay-to-win"> will open after the release of the game on steam</span>.
+            </p>
+			
+        </div>
+    
+</section>
+<!-- shop review section end -->
+
+
+
+	<!-- Footer top section -->
+	<!-- <section class="footer-top-section">
+		<div class="container">
+			<div class="footer-top-bg">
+				<img src="public/img/teammates.png" alt="">
+			</div>
+			<div class="row">
+				<div class="col-lg-4 ">
+					<div class="footer-logo text-white custom-logo">
+						<img src="public/img/pmc_logo.webp" alt="">
+						
+					</div><p>Latest News!!</p>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-widget mb-5 mb-md-0">
+						<h4 class="fw-title">Latest Posts</h4>
+						<div class="latest-blog">
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="public/img/latest-blog/1.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2018</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="public/img/latest-blog/2.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2018</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="public/img/latest-blog/3.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2018</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="footer-widget mb-5 mb-md-0">
+						<h4 class="fw-title">Old Posts</h4>
+						<div class="latest-blog">
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="public/img/latest-blog/1.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2018</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="public/img/latest-blog/2.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2018</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+							<div class="lb-item">
+								<div class="lb-thumb set-bg" data-setbg="public/img/latest-blog/3.jpg"></div>
+								<div class="lb-content">
+									<div class="lb-date">June 21, 2018</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisc ing ipsum </p>
+									<a href="#" class="lb-author">By Admin</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<!-- Footer top section starts -->
+	<footer class="text-center  custom-footer">
+		<!-- Grid container -->
+		<div class="container pt-4 ">
+		  <!-- Section: Social media -->
+		  <section class="mb-4">
+			
+			<!-- Twitter -->
+			<a
+			  data-mdb-ripple-init
+			  class="btn btn-link btn-floating btn-lg text-body m-1"
+			  href="https://x.com/P_M_C_The_Game"
+			  role="button"
+			  data-mdb-ripple-color="dark"
+			  ><i class="fab fa-twitter"></i
+			></a>
+	  
+			<!-- Steam -->
+			<a
+			  data-mdb-ripple-init
+			  class="btn btn-link btn-floating btn-lg text-body m-1"
+			  
+			  role="button"
+			  data-mdb-ripple-color="dark"
+			  ><i class="fab fa-steam" aria-hidden="true"></i
+			></a>
+	  
+			<!-- Instagram -->
+			<!-- <a
+			  data-mdb-ripple-init
+			  class="btn btn-link btn-floating btn-lg text-body m-1"
+			  href="#!"
+			  role="button"
+			  data-mdb-ripple-color="dark"
+			  ><i class="fab fa-instagram"></i
+			></a> -->
+		  </section>
+		  <!-- Section: Social media -->
+		</div>
+		<!-- Grid container -->
+	  pmcthegame0@gmail.com
+		<!-- Copyright -->
+		<div class="text-center p-3" style="background-color: #6B8E23;">
+		  © 2024 Copyright: 
+		  <a class="text-body" href="#">PMC-The Game</a>
+		</div>
+		<!-- Copyright -->
+	  </footer>
+	<!-- Footer section end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="public/js/jquery-3.2.1.min.js"></script>
+	<script src="public/js/bootstrap.min.js"></script>
+	<script src="public/js/owl.carousel.min.js"></script>
+	<script src="public/js/jquery.marquee.min.js"></script>
+	<script src="public/js/main.js"></script>
+	
+    </body>
+</html>

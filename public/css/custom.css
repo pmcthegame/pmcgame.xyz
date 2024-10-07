@@ -1,0 +1,140 @@
+.navbar-custom.bg-body-tertiary {
+    background-color: #6B8E23 !important;
+    /* background-image: url('/img/your-background.jpg') !important; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+  }
+  
+  .custom-bg {
+   background-color: #6B8E23 !important; 
+  }
+
+  .yellow {
+ background-color: gold;
+  }
+  .green {
+    background-color: rgb(64, 255, 0);
+     }
+  .pink {
+      background-color: rgb(255, 0, 200);
+       }     
+  .blue {
+        background-color: rgb(13, 0, 255);
+         }
+
+
+
+         .custom-color {
+           color: rgb(255, 254, 240) !important;
+           outline-color: black !important;
+         }
+
+         .custom-btn-position {
+          margin-right: 80px; /* Move to the right */
+          margin-top: 50px;   /* Lower the button */
+        }
+
+        .custom-h5 {
+          color: #ffd500 !important;
+         
+        }
+
+        .custom-p {
+          color: #ffd500 !important;
+        }
+
+
+        /* Modal Content Style */
+.modal-lg {
+  max-width: 80%;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+/* Short Text with Sheen */
+.short-text {
+  background: linear-gradient(90deg, rgba(255,255,255,0.1), rgba(255,255,255,0.4), rgba(255,255,255,0.1));
+  background-size: 200% 100%;
+  animation: sheen 3s ease-in-out infinite;
+  color: #080808;
+}
+
+@keyframes sheen {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* View More Button */
+.view-more {
+  color: #ff0000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.view-more:hover {
+  text-decoration: underline;
+}
+
+
+/*login css*/
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
+
+  .custom-account {
+    color: #080808;
+  }
+
+  .custom-footer {
+    background-color: #6B8E23 !important;
+  }
+
+  .custom-text {
+    color: #080808 !important;
+  }
+
+  .custom-adventure {
+    background-color: rgb(128, 133, 26);
+  }
+
+  .custom-logo {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  .premium-title-custom-color{
+    color: #eb4747 !important;
+    margin-top: 55px;
+    margin-left: 100px;
+  }
+
+  .premium-text-custom-color{
+    color: #a19b9b;
+    margin-left: 100px;
+  }
+  .pay-to-win-text-custom-color{
+    color: #ffd500;
+    margin-left: 90px;
+  }
